@@ -1,0 +1,153 @@
+@media (max-width:800px) {
+    .content {
+        min-height: 100vh;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/img/bg.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    #carouselExampleIndicators {
+        display: none;
+    }
+    .cscontainer {
+        width: 95%;
+    }
+    .csgrid {
+        grid-template-columns: 1fr;
+    }
+    .csgrid-3 {
+        grid-template-columns: 1fr;
+    }
+    /* herobanner  */
+    .herobanner {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .herobanner h1,
+    h3 {
+        color: #fff;
+        text-align: center;
+    }
+    .herobanner-text {
+        padding-top: 50px;
+    }
+    .herobanner img {
+        max-width: 200px;
+        position: relative;
+        top: 0;
+        left: 35%;
+        margin: 0 auto;
+    }
+    /* about  Section */
+    .about {
+        margin-top: 3em;
+    }
+    .about .csgrid {
+        grid-template-columns: 1fr;
+    }
+    .about-img {
+        order: 2;
+    }
+    .about-text {
+        order: 1;
+        text-align: center;
+        padding: 2em;
+    }
+    .about-img img {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+    /* coments Section */
+    .coments .csgrid {
+        grid-template-columns: 1fr;
+    }
+    .coments .comm-div {
+        padding-top: 1em;
+        min-height: 150px;
+    }
+    .coments .comm-div p {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width:500px) {
+    header {
+        min-height: 100vh;
+        background-image: url("/img/bg.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .content {
+        height: inherit;
+    }
+    #carouselExampleIndicators {
+        display: none;
+    }
+    .cscontainer {
+        width: 95%;
+    }
+    .csgrid {
+        grid-template-columns: 1fr;
+    }
+    .csgrid-3 {
+        grid-template-columns: 1fr;
+    }
+    /* herobanner  */
+    .herobanner {
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+    .herobanner h1,
+    h3 {
+        color: #fff;
+        text-align: center;
+    }
+    .herobanner-text {
+        padding-top: 50px;
+    }
+    .herobanner img {
+        max-width: 200px;
+        position: relative;
+        top: 0;
+        left: 35%;
+        margin: 0 auto;
+    }
+    /* about  Section */
+    .about {
+        margin-top: 3em;
+    }
+    .about .csgrid {
+        grid-template-columns: 1fr;
+    }
+    .about-img {
+        order: 2;
+    }
+    .about-text {
+        order: 1;
+        text-align: center;
+        padding: 2em;
+    }
+    .about-img img {
+        width: 50%;
+        display: block;
+        margin: 0 auto;
+    }
+    /* coments Section */
+    .coments .csgrid {
+        grid-template-columns: 1fr;
+    }
+    .coments .comm-div {
+        padding-top: 1em;
+        min-height: 150px;
+    }
+    .coments .comm-div p {
+        width: 80%;
+        margin: 0 auto;
+    }
+}

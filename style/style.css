@@ -1,0 +1,323 @@
+/* BootStrap Problems */
+
+ol,
+ul {
+    padding-left: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Global */
+
+.highlight {
+    color: #e06244;
+}
+
+.cscontainer {
+    width: 80%;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+.csflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.csgrid {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 100%;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.csgrid-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.csbtn {
+    padding: 0.5em 1em;
+    background-color: #e06244;
+    color: #fff;
+    border: none;
+    font-size: 1.2em;
+    transition: all 1s ease;
+    border: 1px solid transparent;
+}
+
+.csbtn:hover {
+    background-color: #fff;
+    color: #e06244;
+    border: 1px solid #111;
+}
+
+.center {
+    text-align: center;
+}
+
+.cs-sm {
+    font-size: 1em;
+}
+
+.cs-md {
+    font-size: 2em;
+}
+
+.cs-lg {
+    font-size: 3em;
+}
+
+.cs-xl {
+    font-size: 4em;
+}
+
+.cs-p1 {
+    padding: 1em 0;
+}
+
+.cs-p2 {
+    padding: 2em 0;
+}
+
+.cs-p3 {
+    padding: 3em 0;
+}
+
+.cs-p4 {
+    padding: 4em 0;
+}
+
+
+/* My Code */
+
+
+/* Header */
+
+header {
+    width: 100%;
+    min-height: 100vh;
+    transition: all 1s ease;
+}
+
+
+/* the content of Header Up Of thw Cursel*/
+
+.content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    width: 100%;
+    min-height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5));
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 80vh;
+}
+
+#carouselExampleIndicators [type="button"] {
+    z-index: 20;
+}
+
+header .csflex {
+    justify-content: space-between;
+}
+
+.logo {
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    background-color: #e06244;
+    display: flex;
+}
+
+nav ul li {
+    padding: .5em 1em;
+}
+
+.activ {
+    background-color: #666666;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #111;
+    transition: all 1s ease;
+}
+
+
+/* herobanner  */
+
+.herobanner h1,
+h3 {
+    color: #fff;
+}
+
+.herobanner-text {
+    padding-top: 100px;
+}
+
+.herobanner img {
+    max-width: 350px;
+    position: absolute;
+    bottom: -80px;
+    right: 150px;
+}
+
+
+/* about  Section */
+
+.about {
+    width: 100%;
+    min-height: 80vh;
+}
+
+.about .csgrid {
+    grid-template-columns: 1fr 1fr;
+}
+
+.about-img img {
+    width: 70%;
+}
+
+.about-text p {
+    width: 100%;
+    font-size: 1.5em;
+}
+
+
+/* coments Section */
+
+.coments {
+    margin-top: 2em;
+    background-color: #e06244;
+    padding: 2em;
+}
+
+.coments h1 {
+    padding-top: 1em;
+    color: #fff;
+}
+
+.coments .csgrid {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.coments .comm-div {
+    padding-top: .5em;
+    min-height: 200px;
+    background-color: #fff;
+    color: #111;
+    align-items: center;
+}
+
+.coments .comm-div:nth-child(2) {
+    background-color: #666666;
+    color: #fff;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #303030;
+    color: #fff;
+    min-height: 70vh;
+    position: relative;
+}
+
+footer .csgrid-3 {
+    align-items: flex-start;
+}
+
+.contactus,
+.sitemap {
+    margin-top: 1em;
+}
+
+.contactus h1 {
+    text-transform: uppercase;
+}
+
+.contactus h3,
+.sitemap h3 {
+    opacity: .5;
+    text-align: left;
+}
+
+.contactus button {
+    width: 30%;
+}
+
+.contactus input::placeholder,
+textarea::placeholder {
+    padding: 0 1em;
+}
+
+.sitemap ul {
+    list-style: "-";
+    padding-left: 2em;
+}
+
+.sitemap ul li {
+    padding: .1em 1em;
+}
+
+.sitemap ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.sitemap ul li a:hover {
+    color: #e06244;
+    transition: all 1s ease;
+}
+
+.footerlogo img {
+    width: 100px;
+    margin-top: 2em;
+}
+
+.footerlogo ul {
+    width: 100%;
+    list-style: none;
+}
+
+.footerlogo ul li {
+    padding: 1em;
+    font-size: 1.5em;
+}
+
+.footerlogo ul li i {
+    padding-right: .5em;
+}
+
+.copyRight {
+    background-color: #0e0d0d;
+    color: #fff;
+    width: 100%;
+}
